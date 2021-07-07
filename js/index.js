@@ -7,6 +7,8 @@ var columnas =1;
 var fecha = new Date();
 var horas = fecha.getHours();
 
+//Me complique la vida
+/*
 function crear(){
     console.log ("se llamo a crear nueva tabla");
     notas.descripcion = document.getElementById("descripcion").value;
@@ -15,7 +17,7 @@ function crear(){
 
 function actualizarFicha(){
     document.getElementById("descrip").innerHTML = notas.descripcion;   
-}
+}  */
 
 function crearTabla() {
     var nt = document.getElementById("nota").value;
